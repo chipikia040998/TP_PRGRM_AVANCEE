@@ -1,4 +1,4 @@
-#include "segment2d.h"
+#include "../include/segment2d.h"
 #include <stdio.h>
 
 //crée un segment
@@ -12,5 +12,5 @@ struct segment2d newSegment2d()
 void viewSegment2d(struct segment2d S) 
 {
   printf("Le segment\n\td'origine : (%g, %g)", S.E.y, S.E.y);
-	printf("Le segment d'extremité : (%g, %g)", S.O.x, S.O.y);
+	printf("\n\td'extremité : (%g, %g)", S.O.x, S.O.y);
 }

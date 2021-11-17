@@ -1,4 +1,4 @@
-#include "point2d.h"
+#include "../include/point2d.h"
 #include <stdio.h>
 
 //Crée un nouveaux point P
