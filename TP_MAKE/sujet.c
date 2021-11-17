@@ -9,37 +9,25 @@
 Déclaration de structure
 */
 
-//structure definissant un point
-struct point2d 
-{
-  double x, y;
-};
+
 
 //structure definissant un segment
-struct segment2d 
-{
-  struct point2d O, E;
-};
+
 
 /*				2
 Déclaration de fonction
 */
 
-struct point2d newPoint2d();
-struct segment2d newSegment2d();
-void viewPoint2d(struct point2d P);
-void viewSegment2d(struct segment2d S);
+
 
 /**********************
       PARTIE III
   La fonction principale
 **********************/
 int main() {
-	printf("bouh");
   struct point2d P = newPoint2d();
-	printf("prout");
   struct segment2d S = newSegment2d();
-	printf("test");
+	
   viewPoint2d(P);
   viewSegment2d(S);
   return 0;
@@ -68,7 +56,7 @@ struct segment2d newSegment2d()
 //affiche coordonnéesdu point P
 void viewPoint2d(struct point2d P) 
 {
-  printf("Le point de coordonnées (%lf,%lf)\n", P.x, P.y);
+  printf("Le point de coordonnées (%.1lf, %.1lf)\n", P.x, P.y);
 }
 
 //affiche le segment avec comme point d'origine et comme point d'extremité
