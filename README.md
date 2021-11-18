@@ -4,4 +4,10 @@ Les TP on était réaliser sur le site replit et connecter directement au compte
 
 ## TP MAKE
 TO DO :  
-¤ tester le make
+¤ tester le make : ne fonctionne pas sur replit
+
+## TP LISTE ENTIER
+TO DO  
+[ ] Completer les différente fonction 
+[ ] Découpe le code : 
+[ ] Completer les TA
