@@ -8,7 +8,7 @@ struct point2d newPoint2d()
   return P;
 }
 
-//affiche coordonnéesdu point P
+//affiche coordonnées du point P
 void viewPoint2d(struct point2d P) 
 {
   printf("Le point de coordonnées (%.1lf, %.1lf)\n", P.x, P.y);

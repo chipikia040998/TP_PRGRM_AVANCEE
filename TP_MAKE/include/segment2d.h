@@ -11,7 +11,9 @@ struct segment2d {
 //création d'un nouveau segment
 struct segment2d newSegment2d();
 
-//affiche un segment
+/** affiche un segment
+* @param S segment 
+*/ 
 void viewSegment2d(struct segment2d S);
 
 #endif // _SEGMENT2D_

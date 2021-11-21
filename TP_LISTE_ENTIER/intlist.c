@@ -28,7 +28,7 @@
 	* LES TYPES ABSTRAITS
 	**/
 
-/* @brief Le type abstrait d'un _élément_ de liste:
+/** @brief Le type abstrait d'un _élément_ de liste:
  * + x - un entier,
  * + suc - un pointeur sur son successeur (ou NULL s'il n'y en a pas)
  */
@@ -40,30 +40,38 @@ struct lst_elm_t
 /**
 	* DÉCLARATION DES FONCTIONS ASSOCIÉES
 	**/
-/* @brief Créer un élément de liste et y ranger la valeur entière value */
+
+/** @brief Créer un élément de liste et y ranger la valeur entière value */
 struct lst_elm_t * new_lst_elm(int value);
-/* @brief Supprimer un élément de liste et mettre son pointeur à NULL */
+
+/** @brief Supprimer un élément de liste et mettre son pointeur à NULL */
 void del_lst_elm(struct lst_elm_t ** ptrE);
-/* @brief Renvoyer la valeur entière de l'élément */
+
+/** @brief Renvoyer la valeur entière de l'élément */
 int getX ( struct lst_elm_t * E );
-/* @brief Renvoyer le pointeur sur le successeur de l'élément */
+
+/** @brief Renvoyer le pointeur sur le successeur de l'élément */
 struct lst_elm_t * getSuc ( struct lst_elm_t * E );
-/* @brief Modifier la valeur entière de l'élément */
+
+/** @brief Modifier la valeur entière de l'élément */
 void setX (struct lst_elm_t * E, int v );
+
 /* @brief Modifier le pointeur sur le successeur de l'élément */
 void setSuc ( struct lst_elm_t * E, struct lst_elm_t * S );
 
 
-/* @brief Le type abstrait d'une _liste_:
- * + head - le premier élément de la liste
- * + tail - le dernier élément de la liste
- * + numelm - le nombre d'élément dans la liste
- */
+/** @brief Le type abstrait d'une _liste_:
+* + head - le premier élément de la liste
+* + tail - le dernier élément de la liste
+* + numelm - le nombre d'élément dans la liste
+*/
 struct lst_t {
 	struct lst_elm_t * head;
 	struct lst_elm_t * tail;
 	int numelm;
 };
+
+
 /**
 	* DÉCLARATION DES FONCTIONS ASSOCIÉES
 	**/
