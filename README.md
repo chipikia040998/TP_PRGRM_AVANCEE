@@ -13,7 +13,8 @@ ______________________
 ______________________
 ##### Remarque :
 ______________________
-Je n'ai aps reussi a faire fonctionner le make sur replit mais reussi lors des séance de TP en classe
+Je n'ai pas reussi a faire fonctionner le make sur replit mais reussi lors des séance de TP en classe
+Il manque le dossier obj car make n'a pas fonctionner et lors de l'import sur github il a supprimer le dossier ne contenant pas de fichier
 
 ## TP LISTE ENTIER
 ______________________
@@ -33,3 +34,5 @@ ______________________
 ______________________
 ##### Remarque :
 ______________________
+Je n'ai pas reussi a faire fonctionner le make sur replit mais reussi lors des séance de TP en classe
+Il manque le dossier obj car make n'a pas fonctionner et lors de l'import sur github il a supprimer le dossier ne contenant pas de fichier
