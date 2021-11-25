@@ -26,44 +26,70 @@
 
 /**
 	* LES TYPES ABSTRAITS
-	**/
+**/
 
 /** @brief Le type abstrait d'un _élément_ de liste:
- * + x - un entier,
- * + suc - un pointeur sur son successeur (ou NULL s'il n'y en a pas)
- */
+* @param x  un entier,
+* @param suc un pointeur sur son successeur (ou NULL s'il n'y en a pas)
+*/
 struct lst_elm_t 
 {
 	int x;
 	struct lst_elm_t * suc;
 };
-/**
-	* DÉCLARATION DES FONCTIONS ASSOCIÉES
-	**/
 
-/** @brief Créer un élément de liste et y ranger la valeur entière value */
+/*
+	* DÉCLARATION DES FONCTIONS ASSOCIÉES
+**/
+
+/** @brief Créer un élément de liste et y ranger la valeur entière value 
+* @param value valeur a ranger dans le nouvel élément de liste
+*/
 struct lst_elm_t * new_lst_elm(int value);
 
-/** @brief Supprimer un élément de liste et mettre son pointeur à NULL */
+/**************************************************************/
+
+/** @brief Supprimer un élément de liste et mettre son pointeur à NULL
+* @param ptrE élément a supprimer et poiteur a NULL
+*/
 void del_lst_elm(struct lst_elm_t ** ptrE);
 
-/** @brief Renvoyer la valeur entière de l'élément */
+/**************************************************************/
+
+/** @brief Renvoyer la valeur entière de l'élément 
+* @param E Element dont on veux la valeur
+*/
 int getX ( struct lst_elm_t * E );
 
-/** @brief Renvoyer le pointeur sur le successeur de l'élément */
+/**************************************************************/
+
+/** @brief Renvoyer le pointeur sur le successeur de l'élément 
+* @param E Element dont on veux le successeur
+*/
 struct lst_elm_t * getSuc ( struct lst_elm_t * E );
 
-/** @brief Modifier la valeur entière de l'élément */
+/**************************************************************/
+
+/** @brief Modifier la valeur entière de l'élément 
+* @param E élément a modifier
+* @param v nouvelle valeur
+*/
 void setX (struct lst_elm_t * E, int v );
 
-/* @brief Modifier le pointeur sur le successeur de l'élément */
+/**************************************************************/
+
+/** @brief Modifier le pointeur sur le successeur de l'élément 
+* @param E élément de départ 
+* @param S successeur dont on change le pointeur
+*/
 void setSuc ( struct lst_elm_t * E, struct lst_elm_t * S );
 
+/**************************************************************/
 
 /** @brief Le type abstrait d'une _liste_:
-* + head - le premier élément de la liste
-* + tail - le dernier élément de la liste
-* + numelm - le nombre d'élément dans la liste
+* @param head le premier élément de la liste
+* @param tail le dernier élément de la liste
+* @param numelm le nombre d'élément dans la liste
 */
 struct lst_t {
 	struct lst_elm_t * head;
@@ -74,22 +100,46 @@ struct lst_t {
 
 /**
 	* DÉCLARATION DES FONCTIONS ASSOCIÉES
-	**/
-/* @brief Vérifier si la liste L est vide ou pas */
+**/
+
+/** @brief Vérifier si la liste L est vide ou pas 
+* @param L liste dont on veux savoir si vide ou non
+*/
 bool empty_lst(const struct lst_t * L);
-/* @brief Construire une liste vide */
+
+/**************************************************************/
+
+/** @brief Construire une liste vide
+*/
 struct lst_t * new_lst();
-/* @brief Ajouter en tête de la liste L la valeur v */
+
+/**************************************************************/
+
+/** @brief Ajouter en tête de la liste L la valeur v
+* @param L liste a modifier
+* @param v valeur a ajouter en tête
+*/
 void cons(struct lst_t * L, int v);
-/* @brief Visualiser les éléments de la liste L */
+
+/**************************************************************/
+
+/** @brief Visualiser les éléments de la liste L 
+* @param L liste dont on veux afficher les élément
+*/
 void print_lst(struct lst_t * L );
-/* @brief Libèrer la mémoire occupée par la liste */
+
+/**************************************************************/
+
+/** @brief Libèrer la mémoire occupée par la liste
+* @param ptrL liste dont on veux libérer la mémoire 
+*/
 void del_lst(struct lst_t ** ptrL );
 
 
 /**
 	* ALGORITHME (FONCTION PRINCIPALE)
-	**/
+**/
+
 int main() {
 	int v;
 	struct lst_t * L = new_lst();
@@ -118,7 +168,8 @@ struct lst_t * new_lst() {
 	return L;
 }
 
-//libère mémoire de la liste
+/**************************************************************/
+
 void del_lst(struct lst_t ** ptrL ) {
 	assert(ptrL && *ptrL) ;
 	for( struct lst_elm_t * E = (*ptrL)->head ; E!=NULL ; )
@@ -132,16 +183,15 @@ void del_lst(struct lst_t ** ptrL ) {
 	(*ptrL) = NULL ;
 }
 
-//regarde si liste vide
+/**************************************************************/
+
 bool empty_lst(const struct lst_t * L ) {
 	assert(L);
 	return L->numelm == 0;
 }
 
-/** Ajoute en tête d eliste la valeur
-* @param lst_t liste a modifier
-* @param v valeur a mettre en tête de liste
-* */
+/**************************************************************/
+
 void cons(struct lst_t * L, int v) 
 {
 	assert(L) ;
@@ -156,11 +206,54 @@ void cons(struct lst_t * L, int v)
 	L->numelm += 1 ;
 }
 
-//affiche les élément de la liste
+/**************************************************************/
+
 void print_lst(struct lst_t * L ) {
 	printf( "[ " );
 	for(struct lst_elm_t * E = L->head; E; E = E->suc) {
 		printf( "%d ", E->x );
 	}
 	printf( "]\n\n" );
+}
+
+/**************************************************************/
+
+struct lst_elm_t * new_lst_elm(int value);
+{
+	//TO DO
+}
+
+/**************************************************************/
+
+void del_lst_elm(struct lst_elm_t ** ptrE);
+{
+	//TO DO
+}
+
+/**************************************************************/
+
+int getX ( struct lst_elm_t * E );
+{
+	//TO DO
+}
+
+/**************************************************************/
+
+struct lst_elm_t * getSuc ( struct lst_elm_t * E );
+{
+	//TO DO
+}
+
+/**************************************************************/
+
+void setX (struct lst_elm_t * E, int v );
+{
+	//TO DO
+}
+
+/**************************************************************/
+
+void setSuc ( struct lst_elm_t * E, struct lst_elm_t * S );
+{
+	//TO DO
 }

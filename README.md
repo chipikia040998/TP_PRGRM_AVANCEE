@@ -19,6 +19,7 @@ Je n'ai aps reussi a faire fonctionner le make sur replit mais reussi lors des s
 ______________________
 ###### TO DO  :
 ______________________
+[X] Faire fichier de départ avec les commentaires
 [ ] Completer les différente fonction  
 [ ] Découpe le code :  
 [ ] Completer les TA
