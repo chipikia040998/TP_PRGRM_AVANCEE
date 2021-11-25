@@ -21,6 +21,12 @@ ______________________
 ______________________
 [X] Faire fichier de départ avec les commentaires
 [ ] Completer les différente fonction  
+    [ ] new_lst_elm  
+    [ ] del_list_elm  
+    [ ] getX  
+    [ ] getSuc  
+    [ ] setX  
+    [ ] setSuc
 [ ] Découpe le code :  
 [ ] Completer les TA
 [ ] Ajouter le fichier MAKE
