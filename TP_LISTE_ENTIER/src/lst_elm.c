@@ -1,4 +1,10 @@
-#include "../include/lst_elm.h" //inclusion du fichier .h
+#include "../include/lst_elm.h"
+#include "../include/lst.h"
+
+#include <stdlib.h> //librairie standard
+#include <stdio.h> //librairie des inpout/outpout
+#include <stdbool.h> //librairie du type Booléen
+#include <assert.h> //librairie d'assertio
 
 struct lst_elm_t * new_lst_elm(int value)
 {

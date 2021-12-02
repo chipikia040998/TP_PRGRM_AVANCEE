@@ -1,6 +1,11 @@
 #include "../include/lst.h"
 #include "../include/lst_elm.h"
 
+#include <stdlib.h> //librairie standard
+#include <stdio.h> //librairie des inpout/outpout
+#include <stdbool.h> //librairie du type Booléen
+#include <assert.h> //librairie d'assertio
+
 struct lst_t * new_lst() 
 {
 	/* @note : calloc fonctionne de manière identique à malloc

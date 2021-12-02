@@ -1,4 +1,5 @@
-
+#pragma once
+#include <stdbool.h>
 /** @brief Le type abstrait d'une _liste_:
 * @param head le premier élément de la liste
 * @param tail le dernier élément de la liste

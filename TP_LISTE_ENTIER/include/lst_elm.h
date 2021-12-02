@@ -1,3 +1,7 @@
+#pragma once
+#include <stdbool.h>
+
+
 /** @brief Le type abstrait d'un _élément_ de liste:
 * @param x  un entier,
 * @param suc un pointeur sur son successeur (ou NULL s'il n'y en a pas)
@@ -7,6 +11,8 @@ struct lst_elm_t
 	int x;
 	struct lst_elm_t * suc;
 };
+
+/**************************************************************/
 
 /**************************************/
 /* DÉCLARATION DES FONCTIONS ASSOCIÉES*/
