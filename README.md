@@ -1,7 +1,7 @@
 # TP_PRGRM_AVANCEE
-TP du semestre 1 par ZELL Camille  
+TP du semestre 1 par ZELL Camille
 Les TP on était réaliser sur le site replit et connecter directement au compte github. Il y a donc quelque modification afin de faire fonctionner tout cela correctement sur replit
-
+Les fichier on était fait en ligne sur github, plusieurs nom peuvent apparaître car je l'ai fait sur différent suports
 ## TP MAKE
 ______________________
 ##### TO DO :  
