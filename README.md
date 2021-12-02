@@ -29,6 +29,11 @@ ______________________
     [X] setX  
     [x] setSuc
 [ ] Découpe le code :  
+    [ ] main.c  
+    [ ] lst.c  
+    [ ] lst_elm.c  
+    [ ] lst_elm.c
+    [ ] lst.h
 [ ] Completer les TA
 [ ] Ajouter le fichier MAKE
 ______________________

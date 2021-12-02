@@ -7,7 +7,7 @@ struct point2d
   double x, y;
 };
 
-//crée un nouvea point
+//crée un nouveau point
 struct point2d newPoint2d();
 
 //affiche le point
