@@ -1,6 +1,7 @@
 //incluson de fichier
 #include "../include/lst.h"
 #include "../include/lst_elm/h"
+#include "../include/insert.h"
 
 //inclusion des bibliothèque
 #include <stdlib.h> //librairie standard

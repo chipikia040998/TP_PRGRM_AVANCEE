@@ -34,8 +34,11 @@ ______________________
     [X] lst_elm.c  
     [X] lst_elm.c
     [X] lst.h
-[V] Completer les TA
-[V] Ajouter le fichier MAKE
+[V] Completer les TA  
+    [X] insert.c  
+    [X] insert.h  
+[ ] finir les commentaire
+[X] Ajouter le fichier MAKE
 ______________________
 ##### Remarque :
 ______________________
