@@ -21,21 +21,21 @@ ______________________
 ###### TO DO  :
 ______________________
 [X] Faire fichier de départ avec les commentaires
-[ ] Completer les différente fonction  
+[X] Completer les différente fonction  
     [X] new_lst_elm  
     [X] del_list_elm  
     [X] getX  
     [X] getSuc  
     [X] setX  
     [x] setSuc
-[ ] Découpe le code :  
-    [ ] main.c  
-    [ ] lst.c  
-    [ ] lst_elm.c  
-    [ ] lst_elm.c
-    [ ] lst.h
-[ ] Completer les TA
-[ ] Ajouter le fichier MAKE
+[X] Découpe le code :  
+    [X] main.c  
+    [X] lst.c  
+    [X] lst_elm.c  
+    [X] lst_elm.c
+    [X] lst.h
+[V] Completer les TA
+[V] Ajouter le fichier MAKE
 ______________________
 ##### Remarque :
 ______________________
