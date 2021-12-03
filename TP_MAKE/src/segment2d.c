@@ -8,6 +8,8 @@ struct segment2d newSegment2d()
   return S;
 }
 
+/**************************************************************/
+
 //affiche le segment avec comme point d'origine et comme point d'extremité
 void viewSegment2d(struct segment2d S) 
 {

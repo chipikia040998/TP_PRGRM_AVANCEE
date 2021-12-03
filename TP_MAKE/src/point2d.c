@@ -8,6 +8,8 @@ struct point2d newPoint2d()
   return P;
 }
 
+/**************************************************************/
+
 //affiche coordonnées du point P
 void viewPoint2d(struct point2d P) 
 {
