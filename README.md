@@ -27,7 +27,7 @@ ______________________
     [X] getX  
     [X] getSuc  
     [X] setX  
-    [x] setSuc
+    [x] setSuc  
 [X] Découpe le code :  
     [X] main.c  
     [X] lst.c  
@@ -37,48 +37,8 @@ ______________________
 [V] Completer les TA  
     [X] insert.c  
     [X] insert.h  
-[X] Finir les commentaire
+[ ] finir les commentaire
 [X] Ajouter le fichier MAKE
-______________________
-##### Remarque :
-______________________
-Je n'ai pas reussi a faire fonctionner le make sur replit mais reussi lors des séance de TP en classe
-Il manque le dossier obj car make n'a pas fonctionner et lors de l'import sur github il a supprimer le dossier ne contenant pas de fichier
-
-## TP MATRICE
-______________________
-###### TO DO  :
-______________________
-[ ] TA pair  
-    [ ] Faire le fichier pair.h  
-    [ ] structure pair  
-    [ ] déclarations  
-[ ] TA matrix  
-    [ ] fichier matrix.h  
-    [ ] structure matrix  
-    [ ] déclarations  
-[ ] définitions des fonctions 
-    [ ] fichier pair.c  
-    [ ] fichier matrix.c  
-[ ] fonction principale  
-    [ ] fichier main.c  
-    [ ] rédiger le main  
-______________________
-##### Remarque :
-______________________
-Je n'ai pas reussi a faire fonctionner le make sur replit mais reussi lors des séance de TP en classe
-Il manque le dossier obj car make n'a pas fonctionner et lors de l'import sur github il a supprimer le dossier ne contenant pas de fichier
-
-## TP LISTE SIMPLEMENT CHAINEE
-______________________
-###### TO DO  :
-______________________
-[ ] Faire lst_elm.h  
-    [ ] mettre a jour celui ancien TP  
-    [ ] commentaire  
-[ ] lst.h  
-    [ ] mettre a jour celui ancien TP  
-    [ ] commentaire
 ______________________
 ##### Remarque :
 ______________________
