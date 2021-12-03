@@ -27,18 +27,58 @@ ______________________
     [X] getX  
     [X] getSuc  
     [X] setX  
-    [x] setSuc  
+    [x] setSuc
 [X] Découpe le code :  
     [X] main.c  
     [X] lst.c  
     [X] lst_elm.c  
     [X] lst_elm.c
     [X] lst.h
-[V] Completer les TA  
+[X] Completer les TA  
     [X] insert.c  
     [X] insert.h  
-[ ] finir les commentaire
+[X] Finir les commentaire
 [X] Ajouter le fichier MAKE
+______________________
+##### Remarque :
+______________________
+Je n'ai pas reussi a faire fonctionner le make sur replit mais reussi lors des séance de TP en classe
+Il manque le dossier obj car make n'a pas fonctionner et lors de l'import sur github il a supprimer le dossier ne contenant pas de fichier
+
+## TP MATRICE
+______________________
+###### TO DO  :
+______________________
+[X] TA pair  
+    [x] Faire le fichier pair.h  
+    [X] structure pair  
+    [x] déclarations  
+[X] TA matrix  
+    [x] fichier matrix.h  
+    [x] structure matrix  
+    [x] déclarations  
+[x] définitions des fonctions 
+    [x] fichier pair.c  
+    [x] fichier matrix.c  
+[x] fonction principale  
+    [x] fichier main.c  
+    [x] rédiger le main  
+______________________
+##### Remarque :
+______________________
+Je n'ai pas reussi a faire fonctionner le make sur replit mais reussi lors des séance de TP en classe
+Il manque le dossier obj car make n'a pas fonctionner et lors de l'import sur github il a supprimer le dossier ne contenant pas de fichier
+
+## TP LISTE SIMPLEMENT CHAINEE
+______________________
+###### TO DO  :
+______________________
+[ ] Faire lst_elm.h  
+    [ ] mettre a jour celui ancien TP  
+    [ ] commentaire  
+[ ] lst.h  
+    [ ] mettre a jour celui ancien TP  
+    [ ] commentaire
 ______________________
 ##### Remarque :
 ______________________
