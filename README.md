@@ -80,6 +80,10 @@ ______________________
 [ ] lst.h  
     * [ ] mettre a jour celui ancien TP  
     * [ ] commentaire
+[ ] outils
+    * [X] création des fichier .h et .c
+    * [X] commentaire
+    * [X] écrire les fonctions
 ______________________
 ##### Remarque :
 ______________________
