@@ -90,4 +90,19 @@ ______________________
 Je n'ai pas reussi a faire fonctionner le make sur replit mais reussi lors des séance de TP en classe
 Il manque le dossier obj car make n'a pas fonctionner et lors de l'import sur github il a supprimer le dossier ne contenant pas de fichier
 
-## TP LISTE ENTIER
+## TP LISTE DOULEMENT CHAINEE
+_______________________
+###### TO DO :
+_______________________
+[X] lst_elm
+    * [X] .h
+    * [X] .c
+    * [X] commentaire
+[X] lst
+    * [X] .h
+    * [X] .c
+    * [X] commentaire
+[X] outils
+    * [X] .h
+    * [X] .c
+    * [X] commentaire
