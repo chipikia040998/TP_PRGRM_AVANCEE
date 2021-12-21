@@ -1,7 +1,7 @@
 struct lst_t {
-struct lst_elm_t * head ;
-struct lst_elm_t * tail ;
-int numelm ;
+    struct lst_elm_t * head ;
+    struct lst_elm_t * tail ;
+    int numelm ;
 }
 
 /** @brief Construire une liste vide */

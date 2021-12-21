@@ -74,13 +74,13 @@ Il manq ue le dossier obj car make n'a pas fonctionner et lors de l'import sur g
 ______________________
 ###### TO DO  :
 ______________________
-[ ] Faire lst_elm.h  
-    * [ ] mettre a jour celui ancien TP  
-    * [ ] commentaire  
-[ ] lst.h  
-    * [ ] mettre a jour celui ancien TP  
-    * [ ] commentaire
-[ ] outils
+[X] Faire lst_elm.h  
+    * [X] mettre a jour celui ancien TP  
+    * [X] commentaire  
+[X] lst.h  
+    * [X] mettre a jour celui ancien TP  
+    * [X] commentaire
+[X] outils
     * [X] création des fichier .h et .c
     * [X] commentaire
     * [X] écrire les fonctions
